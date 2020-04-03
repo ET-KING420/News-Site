@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Новостной игровой портал | SkillGame</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="x-icon/ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/helper.css">
+  <link rel="stylesheet" href="preloader/preloader.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="fakeLoader"></div>
+<div class="slider">
+    <div class="slider__wrapper grey_texture">
+      <div class="slider__item">
+        <div style="background: url('images/head/1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top; height: 100%;">
+			<div class="head_news_img" style="transform: translateX(0%);">
+				<div class="head_news_header"><a href="#news_1" class="smooth_scroll">Лучшие игры 2020 года</a></div>
+				<a href="#news_1" class="smooth_scroll"><img src="images/news/best_games_2020.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top;"/></a>
+				<label>Самые ожидаемые релизы последнего года жизни этого поколения консолей!</label>
+			</div>
+		</div>
+      </div>
+      <div class="slider__item">
+        <div style="background: url('images/head/2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top; height: 100%;">
+			<div class="head_news_img" style="transform: translateX(100%);">
+				<div class="head_news_header"><a href="#news_2" class="smooth_scroll">Что демо-версия Resident Evil 3: Nemesis рассказывает о качестве ремейка</a></div>
+				<a href="#news_2" class="smooth_scroll"><img src="images/news/resident_evil_3.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top;"/></a>
+				<label>Полчаса в обновленном Раккун-сити вызывают ряд определенных вопросов.</label>
+			</div>
+		</div>
+      </div>
+      <div class="slider__item">
+        <div style="background: url('images/head/3.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top; height: 100%;">
+			<div class="head_news_img" style="transform: translateX(200%);">
+				<div class="head_news_header"><a href="#news_3" class="smooth_scroll">Почему выход ремейка первой Half-Life важнее, чем вы думали</a></div>
+				<a href="#news_3" class="smooth_scroll"><img src="images/news/half_life.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top;"/></a>
+				<label>Black Mesa 1.0 — значимая веха в любительском геймдеве и большое событие для всех фанатов серии.</label>
+			</div>
+		</div>
+      </div>
+      <div class="slider__item">
+        <div style="background: url('images/head/4.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top; height: 100%;">
+			<div class="head_news_img" style="transform: translateX(300%);">
+				<div class="head_news_header"><a href="#news_4" class="smooth_scroll">Valve удалила третью птицу с постера Half-Life: Alyx. Студии так не нравится цифра три?<br></a></div>
+				<a href="#news_4" class="smooth_scroll"><img src="images/news/half_life_valve.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top;"/></a>
+				<label>«Что случилось с третьей птичкой? Она улетела» — шутят игроки</label>
+			</div>
+		</div>
+      </div>
+	  <div class="slider__item">
+        <div style="background: url('images/head/5.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top; height: 100%;">
+			<div class="head_news_img" style="transform: translateX(400%);">
+				<div class="head_news_header"><a href="#news_3" class="smooth_scroll">Что такое Astellia Online? Боевые саммоны и немного классики жанра в корейской MMORPG</a></div>
+				<a href="#news_3" class="smooth_scroll"><img src="images/news/astellia_online.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top;"/></a>
+				<label>Рассказываем об основных деталях новинки и ее обитателях</label>
+			</div>
+		</div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+</div>
+</div>
+<div class="wrapper">
+<div class="content">
+<header>
+	<div class="nav">
+		<ul>
+			<li class="nav_brand"><a href="index.html">SkillGame</a></li>
+			<li><a href="about.html">О Нас</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+			<li><a href="#container_news" class="smooth_scroll">Новости</a></li>
+			<li class="active"><a href="index.html">Главная</a></li>
+		</ul>
+	</div>
+</header>
+<div class="container_news" id="container_news">
+	<h1 style="color: #fff; font-size: 4.5vh;">Новости</h1>
+	<hr color="#818da6" size="1" style="margin: 0 0 6vh 0;"/>
+	<div class="news_block" id="news_1">
+		<a href="#news_1">Лучшие игры 2020 года</a>
+		<a href="#news_1" class="news_img"><img src="images/news/best_games_2020.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top; width: 30%;"/></a>
+		<label>Самые ожидаемые релизы последнего года жизни этого поколения консолей!<br>
+		В игровой индустрии воцарилось затишье кроссгена. Большинство громких проектов отстреляли на этом поколении консолей, а разработчики вовсю создают новые, но уже для следующего. В 2020 году завершится очередной виток развития видеоигр, но это не значит, что он не сможет порадовать нас последними интересными тайтлами.</label>	
+	</div>
+	<div class="news_block" id="news_2">
+		<a href="#news_2">Что демо-версия Resident Evil 3: Nemesis рассказывает о качестве ремейка</a>
+		<a href="#news_2" class="news_img"><img src="images/news/resident_evil_3.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top; width: 30%;"/></a>
+		<label>Полчаса в обновленном Раккун-сити вызывают ряд определенных вопросов.<br>
+		Вчера в некоторых странах состоялся релиз демо-версии Resident Evil 3 Remake. Некоторые нетерпеливые граждане принялись регистрировать аккаунты в других регионах (PS4) или менять настройки языка и страны (Xbox One) для того, чтобы поскорее встретиться с Джилл Валентайн. Мы же терпеливо выждали российского релиза, который состоялся почти на полчаса позже обещанной полуночи, и готовы поделиться своим мнением.</label>
+	</div>
+	<div class="news_block" id="news_3">
+		<a href="#news_3">Почему выход ремейка первой Half-Life важнее, чем вы думали</a>
+		<a href="#news_3" class="news_img"><img src="images/news/half_life.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top; width: 30%;"/></a>
+		<label>Black Mesa 1.0 — значимая веха в любительском геймдеве и большое событие для всех фанатов серии.<br>
+		Сегодня в Steam состоялся релиз финальной версии Black Mesa — ремейка первой части Half-Life. Команда преданных фанатов игры начала работать над проектом в 2004 году, и лишь к 2015-му он добрался до раннего доступа. Спустя еще пять лет энтузиасты довели дело до конца. Да, вы все правильно поняли: Black Mesa вместе с многострадальным миром Зен дожила до релиза. Рассказываем, почему это важно.</label>
+	</div>
+	<div class="news_block" id="news_4">
+		<a href="#news_4">Valve удалила третью птицу с постера Half-Life: Alyx. Студии так не нравится цифра три?</a>
+		<a href="#news_4" class="news_img"><img src="images/news/half_life_valve.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top; width: 30%;"/></a>
+		<label>«Что случилось с третьей птичкой? Она улетела» — шутят игроки<br>
+		Пользователи Reddit обратили внимание на изменения в постере Half-Life: Alyx. На первом изображении, опубликованном 17 марта, можно заметить три птицы рядом с Аликс. На втором, который появился в сети 20 марта, их уже две.</label>
+	</div>
+	<div class="news_block" id="news_5">
+		<a href="#news_5">Что такое Astellia Online? Боевые саммоны и немного классики жанра в корейской MMORPG</a>
+		<a href="#news_5" class="news_img"><img src="images/news/astellia_online.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center top; width: 30%;"/></a>
+		<label>Рассказываем об основных деталях новинки и ее обитателях<br>
+		В полну онлайн-игр прибыло. Сервера Astellia Online открыли свои двери всем желающим в рамках ОБТ, начавшегося в России 9 марта. В игре классические элементы MMORPG переплелись с одной нетипичной особенностью: важную роль в геймплее играют призывные существа — астеллы. У каждого из астеллов имеется класс и ряд уникальных способностей, благодаря которым кто-то займет достойное место в авангарде вашего небольшого войска, а другие останутся помогать в тылу. Мы проверили, что эти астеллы за звери такие, какие у игрока есть варианты развития персонажа, можно ли обмениваться предметами с другими геймерами и чего вообще занимательного получится поделать на карте.</label>
+	</div>
+	<div class="pager">
+		<ul>
+			<li><a href="#">Предыдущая</a></li>
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="#">Следующая</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div class="footer">
+	<footer>
+		<div class="footer_content">
+			<label>SkillGame</label>
+			<a href="https://vk.com/ilyaa_king">by KING420</a>
+		</div>
+	</footer>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+       event.preventDefault();
+	   
+	   var delay = 0;
+	   if (this.className == "smooth_scroll")
+			delay = 800;
+			
+       var hash = this.hash;	
+       $('html, body').animate({
+         scrollTop: $(hash).offset().top
+       }, delay, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+<script src="js/slider.js"></script>
+<script>carousel(1);</script>
+<script src="preloader/preloader.min.js"></script>
+<script>
+    $(document).ready(function(){
+		$.fakeLoader({
+			timeToHide:1200,
+            bgColor:"#1f2637",
+            spinner:"spinner3"
+        });
+    });
+</script>
+</body>
+</html>
